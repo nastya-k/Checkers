@@ -1,0 +1,105 @@
+
+
+h1 {
+    font-size: 3em;
+    margin:20px 0;
+    max-width: 860px;
+    width: 100%;
+     margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.chess-edge {
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+}
+
+.chess-board {
+    border-style: solid;
+    border-width: 10px;
+    position: relative;
+    font-size: 0;
+}
+
+.row {
+    width: 100%;
+}
+
+.cell {
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+    width: 12.5%;
+    height: 100px;
+}
+
+.chess-board .row:nth-child(odd) .cell:nth-child(odd) {
+background-color: black;    
+}
+    
+.chess-board .row:nth-child(even) .cell:nth-child(even) {
+background-color: black;    
+}
+
+img {
+    position: absolute;
+}
+
+img[class*="chess-test"] {
+    transform: translate(2%, 50%);
+}
+
+img[class*="Chess"] {
+transform: translate(2%, -50%);
+}
+
+img[class*="-1"] {
+    left:0;
+}
+
+img[class*="-2"] {
+    left:12.5%;
+}
+
+img[class*="-3"] {
+    left:25%;
+}
+
+img[class*="-4"] {
+    left:37.5%;
+}
+
+img[class*="-5"] {
+    left:50%;
+}
+
+img[class*="-6"] {
+    left:62.5%;
+}
+
+img[class*="-7"] {
+    left:75%;
+}
+
+img[class*="-8"] {
+    left:87.5%;
+}
+
+
+
+.r1 {
+    top: 6.25%;
+}
+
+.r2 {
+    top: 18.75%;
+}
+
+.r3 {
+    top: 31.25%;
+}
